@@ -1,5 +1,8 @@
 def czyPelnoletni(rokUrodzenia):
     if 2021-rokUrodzenia >= 18:
-     return True
+        return True
     else:
-    return False
+        return False
+        
+wiek = 2021 - int(input())
+print(wiek)
